@@ -131,3 +131,9 @@ Dieses Projekt wurde eigenständig entwickelt, um praktische Kenntnisse in Daten
 Der Fokus liegt auf dem Verständnis technischer Konzepte, sauberer Projektstruktur und nachvollziehbarer Implementierung.
 
 Es dient als Nachweis meiner Motivation, Lernbereitschaft und technischen Fähigkeiten im Bereich Datenanalyse und Algorithmus-Implementierung.
+
+# This project is part of a series of practical experiments, including:
+
+- **VELO STOR – Online Store:** 👉 https://github.com/Nexus-Vertex/.-VELO-STOR-Online-Store-Web-Project
+
+- **WhatsApp AI Bot:** 👉 https://github.com/Nexus-Vertex/Meta-API-python-whatsapp-bot
