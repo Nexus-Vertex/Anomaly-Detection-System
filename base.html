@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Détection Anomalies - WebApp</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<header>
+<h1>Détection d'anomalies</h1>
+<nav>
+<a href="/">Accueil</a> |
+<a href="admin.html">Admin</a>
+</nav>
+</header>
+<h2> Admin — Entraîner / Sauvegarder modèle</h2>
+<form action="/save_model" method="post">
+<label>Contamination (ex: 0.05) : </label>
+<input name="contamination" value="0.05">
+<button type="submit">Entraîner & Sauvegarder</button>
+</form>
+<div id="save-result"></div>
+<script>
+const form = document.querySelector('form');
+form.addEventListener('submit', async (e)=>{
+e.preventDefault();
+const formData = new FormData(form);
+const r = await fetch('/save_model', {method:'POST', body: formData});
+const j = await r.json();
+document.getElementById('save-result').textContent = JSON.stringify(j);
+});
+</script>
+<h2>Analyser un jeu de données</h2>
+<form action="/analyze" method="post" enctype="multipart/form-data">
+<label>Fichier CSV :</label>
+<input type="file" name="file">
+<button type="submit">Analyser</button>
+</form>
+<p>Ou utiliser l'exemple :</p>
+<a href="resultat.png">Générer un exemple</a>
+
+
+<h3>Mode temps réel (simulé)</h3>
+<button id="start">Démarrer le stream (10s)</button>
+<ul id="points"></ul>
+
+<h2>Résultats</h2>
+<img src="{{ plot_url }}" alt="plot" style="max-width:100%;height:auto;">
+<p>Télécharger le CSV : <a href="anomalies.csv">Télécharger</a></p>
+<p><a href="/">Retour</a></p>
+
+
+</body>
+</html>

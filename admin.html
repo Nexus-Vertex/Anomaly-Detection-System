@@ -1,0 +1,18 @@
+
+<h2>Admin — Entraîner / Sauvegarder modèle</h2>
+<form action="/save_model" method="post">
+<label>Contamination (ex: 0.05) : </label>
+<input name="contamination" value="0.05">
+<button type="submit">Entraîner & Sauvegarder</button>
+</form>
+<div id="save-result"></div>
+<script>
+const form = document.querySelector('form');
+form.addEventListener('submit', async (e)=>{
+e.preventDefault();
+const formData = new FormData(form);
+const r = await fetch('/save_model', {method:'POST', body: formData});
+const j = await r.json();
+document.getElementById('save-result').textContent = JSON.stringify(j);
+});
+</script>

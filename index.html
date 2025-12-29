@@ -1,0 +1,17 @@
+
+<h2>Analyser un jeu de données</h2>
+<form action="/analyze" method="post" enctype="multipart/form-data">
+<label>Fichier CSV :</label>
+<input type="file" name="file">
+<button type="submit">Analyser</button>
+</form>
+<p>Ou utiliser l'exemple :</p>
+<a href="/generate">Générer un exemple</a>
+
+
+<h3>Mode temps réel (simulé)</h3>
+<button id="start">Démarrer le stream (10s)</button>
+<ul id="points"></ul>
+
+
+
