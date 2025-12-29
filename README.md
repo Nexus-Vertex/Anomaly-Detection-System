@@ -54,7 +54,7 @@ Python 3.10+
 - **Git & GitHub – Version control and project tracking**
 
 ## 📝 Project Structure
-
+```
 anomaly-detection/
 ├── main.py                   # Main script to run anomaly detection
 ├── data/                     # Folder containing sample datasets
@@ -63,67 +63,68 @@ anomaly-detection/
 ├── requirements.txt          # Python dependencies
 ├── .env                      # Optional environment variables
 └── README.md                 # Project documentation
-
+```
 ##  Usage Instructions
 
 ### 1️⃣ Clone the repository
-
+```
 git clone https://github.com/YOUR_USERNAME/anomaly-detection.git
 cd anomaly-detection
-
+```
 
 ### 2️⃣ Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 
 ### 3️⃣ Run the main script
 
+```
 python main.py
-
+```
 
 ### 4️⃣ Load your dataset
 
-Place CSV/Excel files in the data/ folder.
+- **Place CSV/Excel files in the data/ folder.**
 
-Update main.py with the file name or path.
+- **Update main.py with the file name or path.**
 
 ### 5️⃣ Configure detection parameters
 
-Set thresholds for Z-score or other algorithms in main.py
+- **Set thresholds for Z-score or other algorithms in main.py**
 
-Choose features to analyze and enable/disable specific algorithms
+- **Choose features to analyze and enable/disable specific algorithms**
 
 ### 6️⃣ Visualize anomalies
 
-The system generates plots to highlight detected anomalies
+- **The system generates plots to highlight detected anomalies**
 
-Check console logs for summary statistics
+- **Check console logs for summary statistics**
 
 ## Example Output
 
 The system will output:
 
-Number of anomalies detected
+- **Number of anomalies detected**
 
-Indices or IDs of anomalous data points
+- **Indices or IDs of anomalous data points**
 
-Charts highlighting unusual patterns
+- **Charts highlighting unusual patterns**
 
-Statistical summary of dataset and anomalies
+- **Statistical summary of dataset and anomalies**
 
 ## 🔗 References & Learning Resources
 
-Scikit-learn Documentation – https://scikit-learn.org/stable/
+- **Scikit-learn Documentation** – https://scikit-learn.org/stable/
 
-Python Data Science Handbook – https://jakevdp.github.io/PythonDataScienceHandbook/
+- **Python Data Science Handbook** – https://jakevdp.github.io/PythonDataScienceHandbook/
 
-Anomaly Detection Techniques Overview – https://towardsdatascience.com/anomaly-detection
+- **Anomaly Detection Techniques Overview** – https://towardsdatascience.com/anomaly-detection
 
-Matplotlib & Seaborn – https://matplotlib.org/
+- **Matplotlib & Seaborn** – https://matplotlib.org/
 , https://seaborn.pydata.org/
 
-## 📌 Note (German)
+## 📌 Hinweis
 
 Dieses Projekt wurde eigenständig entwickelt, um praktische Kenntnisse in Datenanalyse, Python-Programmierung, maschinellem Lernen und Anomalie-Erkennung zu demonstrieren.
 
