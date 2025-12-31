@@ -56,13 +56,15 @@ Python 3.10+
 ## 📝 Project Structure
 ```
 anomaly-detection/
-├── main.py                   # Main script to run anomaly detection
-├── data/                     # Folder containing sample datasets
-├── utils.py                  # Utility functions for data processing
-├── notebooks/                # Jupyter notebooks for experimentation
-├── requirements.txt          # Python dependencies
-├── .env                      # Optional environment variables
-└── README.md                 # Project documentation
+├── app.py                            # Main script to run anomaly detection
+├── dataset/                          # un exemple pour des donnés anomalies 
+├── anomalies.csv                     # schow the execucution of dataset values 
+├── index/admin/base/resultat.html    # pages web for the execution resultats
+├── requirements.txt                  # Python dependencies
+├── .env                              # Optional environment variables
+├── resultat.png                      # contien des photos d'éxecution
+├── license 
+└── README.md                         # Project documentation
 ```
 ##  Usage Instructions
 
