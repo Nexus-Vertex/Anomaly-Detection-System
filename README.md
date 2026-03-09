@@ -1,6 +1,8 @@
 # Anomaly Detection System 🛠️📊
 
-![Anomaly Detection Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,100:FF4500&height=200&text=Anomaly%20Detection%20System&fontSize=35&fontColor=fff&animation=fadeIn&desc=Machine%20Learning%20%26%20Python&descSize=20)
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&text=Anomaly%20Detection%20System&fontSize=35&fontColor=fff&animation=fadeIn&desc=Machine%20Learning%20%26%20Python&descSize=20"/>
+</p>
 
 This project demonstrates an anomaly detection system developed for educational and experimental purposes.
 
