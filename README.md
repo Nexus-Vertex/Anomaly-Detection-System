@@ -1,7 +1,7 @@
 # Anomaly Detection System 🛠️📊
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&text=Anomaly%20Detection%20System&fontSize=35&fontColor=fff&animation=fadeIn&desc=Machine%20Learning%20%26%20Python&descSize=20"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=FF4500&center=true&width=600&lines=Anomaly+Detection+System+🛠️;Machine+Learning+%26+Python+📊" alt="Typing SVG">
 </p>
 
 This project demonstrates an anomaly detection system developed for educational and experimental purposes.
