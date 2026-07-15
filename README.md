@@ -1,4 +1,4 @@
-# Anomaly Detection System 🛠️📊
+# Anomaly Detection System 
 
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=FF4500&center=true&width=600&lines=Anomaly+Detection+System+🛠️;Machine+Learning+%26+Python+📊" alt="Typing SVG">
@@ -29,7 +29,7 @@ Provides sample datasets for experimentation, allowing users to test detection l
 - **Flexible Configuration**
 Users can adjust detection thresholds, select features, and customize the analysis pipeline.
 
-## 🎯 Purpose of the Project
+##  Purpose of the Project
 
 The objectives of this project are:
 
@@ -43,7 +43,7 @@ The objectives of this project are:
 
 - **This project is intended purely for learning and experimentation. It is not designed for production use with sensitive data.**
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 Python 3.10+
 
@@ -119,7 +119,7 @@ The system will output:
 
 - **Statistical summary of dataset and anomalies**
 
-## 🔗 References & Learning Resources
+##  References & Learning Resources
 
 - **Scikit-learn Documentation** – https://scikit-learn.org/stable/
 
@@ -130,7 +130,7 @@ The system will output:
 - **Matplotlib & Seaborn** – https://matplotlib.org/
 , https://seaborn.pydata.org/
 
-## 📌 Hinweis
+##  Hinweis
 
 Dieses Projekt wurde eigenständig entwickelt, um praktische Kenntnisse in Datenanalyse, Python-Programmierung, maschinellem Lernen und Anomalie-Erkennung zu demonstrieren.
 
