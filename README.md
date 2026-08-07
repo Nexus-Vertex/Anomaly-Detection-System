@@ -140,6 +140,6 @@ Es dient als Nachweis meiner Motivation, Lernbereitschaft und technischen Fähig
 
 # This project is part of a series of practical experiments, including:
 
-- **VELO STOR – Online Store:** 👉 https://github.com/Nexus-Vertex/.-VELO-STOR-Online-Store-Web-Project
+- **VELO STOR – Online Store:** 👉 https://github.com/Nexus-Vertex/VELO-STOR-Online-Store
 
 - **WhatsApp AI Bot:** 👉 https://github.com/Nexus-Vertex/Meta-API-python-whatsapp-bot
